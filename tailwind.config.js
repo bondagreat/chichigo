@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       minWidth: {
+        '580': "580px",
         '728': "728px",
       },
       minHeight: {
@@ -18,11 +19,13 @@ module.exports = {
       height: {
         '100': "400px",
         '66': "66px",
+        '650': "650px",
         '632': "632px",
       },
       width: {
         '100': "400px",
         '68': "68px",
+        '650': "650px",
         '870': "870px",
       },
       gap: {
