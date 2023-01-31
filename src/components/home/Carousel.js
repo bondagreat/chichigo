@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import angleRight from "../images/angle-right-solid.svg";
-import angleLeft from "../images/angle-left-solid.svg";
+import angleRight from "../../images/angle-right-solid.svg";
+import angleLeft from "../../images/angle-left-solid.svg";
 
-import Crs1 from "../images/test1.jpg";
-import Crs2 from "../images/test2.jpg";
-import Crs3 from "../images/test3.jpg";
+import Crs1 from "../../images/test1.jpg";
+import Crs2 from "../../images/test2.jpg";
+import Crs3 from "../../images/test3.jpg";
 
 const Carousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);

@@ -1,5 +1,5 @@
-import Image from "../images/SCR-01.png";
-import Location from "../images/location-dot-solid.svg";
+import Image from "../../images/SCR-01.png";
+import Location from "../../images/location-dot-solid.svg";
 
 export default function Event() {
   return (

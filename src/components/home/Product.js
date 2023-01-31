@@ -1,4 +1,4 @@
-import Image from "../images/SCR-01.png";
+import Image from "../../images/SCR-01.png";
 
 export default function Product() {
   return (
