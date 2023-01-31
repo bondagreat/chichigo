@@ -29,32 +29,36 @@ export default function RegisterForm() {
         <div>
           <img src={Image} />
         </div>
-        <form className="flex flex-col space-y-8 pt-14">
+        <form className="flex flex-col space-y-8 pt-14 w-650">
           <div>
             <h1 className="text-5xl">WELCOME</h1>
             <span className="text-2xl">REGISTER YOUR ACCOUNT</span>
           </div>
           <div className="flex space-x-5">
-            <label className="block">
-              <span className="text-xl">FIRST NAME</span>
-              <Input
-                placeholder="Somkiat"
-                name="firstName"
-                value={input.firstName}
-                onChange={handleChangeInput}
-                // error={error.firstName}
-              />
-            </label>
-            <label className="block">
-              <span className="text-xl">LAST NAME</span>
-              <Input
-                placeholder="Somsaksri"
-                name="lastName"
-                value={input.lastName}
-                onChange={handleChangeInput}
-                // error={error.lastName}
-              />
-            </label>
+            <div className="w-1/2">
+              <label className="block">
+                <span className="text-xl">FIRST NAME</span>
+                <Input
+                  placeholder="Somkiat"
+                  name="firstName"
+                  value={input.firstName}
+                  onChange={handleChangeInput}
+                  // error={error.firstName}
+                />
+              </label>
+            </div>
+            <div className="w-1/2">
+              <label className="block">
+                <span className="text-xl">LAST NAME</span>
+                <Input
+                  placeholder="Somsaksri"
+                  name="lastName"
+                  value={input.lastName}
+                  onChange={handleChangeInput}
+                  // error={error.lastName}
+                />
+              </label>
+            </div>
           </div>
           <div>
             <label className="block">
@@ -81,27 +85,31 @@ export default function RegisterForm() {
             </label>
           </div>
           <div className="flex space-x-5">
-            <label className="block">
-              <span className="text-xl">PASSWORD</span>
-              <Input
-                type="password"
-                placeholder="6+ characters"
-                name="firstName"
-                value={input.firstName}
-                onChange={handleChangeInput}
-                // error={error.firstName}
-              />
-            </label>
-            <label className="block">
-              <span className="text-xl">CONFIRM PASSWORD</span>
-              <Input
-                type="password"
-                name="firstName"
-                value={input.firstName}
-                onChange={handleChangeInput}
-                // error={error.firstName}
-              />
-            </label>
+            <div className="w-1/2">
+              <label className="block">
+                <span className="text-xl">PASSWORD</span>
+                <Input
+                  type="password"
+                  placeholder="6+ characters"
+                  name="firstName"
+                  value={input.firstName}
+                  onChange={handleChangeInput}
+                  // error={error.firstName}
+                />
+              </label>
+            </div>
+            <div className="w-1/2">
+              <label className="block">
+                <span className="text-xl">CONFIRM PASSWORD</span>
+                <Input
+                  type="password"
+                  name="firstName"
+                  value={input.firstName}
+                  onChange={handleChangeInput}
+                  // error={error.firstName}
+                />
+              </label>
+            </div>
           </div>
           <button className="w-full h-12 bg-my-orange rounded-3xl hover:bg-my-gray">
             <span className="text-xl">REGISTER</span>
