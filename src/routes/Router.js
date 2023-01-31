@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "../pages/HomePage";
+import PaymentPage from "../pages/PaymentPage";
 import ProductInfoPage from "../pages/ProductInfoPage";
 import ProductPage from "../pages/ProductPage";
 
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: '/product/:productId',
     element: <ProductInfoPage />
+  },
+  {
+    path: '/payment',
+    element: <PaymentPage />
   },
 
 ])
