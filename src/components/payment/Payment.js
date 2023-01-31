@@ -3,8 +3,8 @@ import Image from "../../images/SCR-01.png";
 export default function Payment() {
   return (
     <>
-      <div className="container flex justify-center min-w-728 px-12 py-16 bg-blue-100">
-        <div className="flex flex-col items-center w-520 bg-gray-100 rounded-3xl">
+      <div className="container flex justify-center min-w-728 px-12 py-16">
+        <div className="flex flex-col items-center w-520 bg-my-white rounded-3xl">
           <div>
             <h1 className="text-3xl my-9 font-medium">PAYMENT METHODS</h1>
           </div>

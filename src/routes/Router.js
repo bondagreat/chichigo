@@ -1,4 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ContactPage from "../pages/ContactPage";
 import HomePage from "../pages/HomePage";
 import PaymentPage from "../pages/PaymentPage";
 import ProductInfoPage from "../pages/ProductInfoPage";
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: '/payment',
     element: <PaymentPage />
+  },
+  {
+    path: '/contact',
+    element: <ContactPage />
   },
 
 ])
