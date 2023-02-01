@@ -3,6 +3,7 @@ import CartPage from "../pages/CartPage";
 import ContactPage from "../pages/ContactPage";
 import HomePage from "../pages/HomePage";
 import LoginPage from "../pages/LoginPage";
+import OrderInfoPage from "../pages/OrderInfoPage";
 import OrderPage from "../pages/OrderPage"
 import PaymentPage from "../pages/PaymentPage";
 import ProductInfoPage from "../pages/ProductInfoPage";
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
   {
     path: '/order',
     element: <OrderPage />
+  },
+  {
+    path: '/order/:orderId',
+    element: <OrderInfoPage />
   },
 
 ])
