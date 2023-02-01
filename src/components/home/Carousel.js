@@ -42,13 +42,13 @@ const Carousel = () => {
         className="absolute left-0 top-1/2 -translate-y-2/4 m-4 bg-my-crs h-16 w-16 opacity-50 rounded-full text-white hover:opacity-100"
         onClick={handlePrev}
       >
-        <img className="w-16 h-14" src={angleLeft} />
+        <img className="w-16 h-14" src={angleLeft} alt="Left" />
       </button>
       <button
         className="absolute right-0 top-1/2 -translate-y-2/4 m-4 bg-my-crs h-16 w-16 opacity-50 rounded-full text-white hover:opacity-100"
         onClick={handleNext}
       >
-        <img className="w-16 h-14" src={angleRight} />
+        <img className="w-16 h-14" src={angleRight} alt="Right" />
       </button>
       <ul className="carousel-indicators absolute flex space-x-4 bottom-4 left-1/2 -translate-x-2/4">
         {items.map((item, index) => (

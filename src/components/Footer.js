@@ -1,3 +1,4 @@
+import { PhoneIcon, ShopeeIcon } from "../images";
 import Logo from "../images/logo-ft.png";
 import Fb from "../images/s-fb.png";
 import Ig from "../images/s-ig.png";
@@ -20,19 +21,25 @@ export default function Footer() {
             <div className="pt-6 px-24">
               <ul>
                 <li>
-                  <a className="text-xl text-my-white" href="#">
+                  <span className="text-xl text-my-white" href="#">
                     QUICK LINKS
-                  </a>
+                  </span>
                   <ul>
                     <br />
                     <li className="mb-2 text-my-white">
-                      <a href="#">HOME</a>
+                      <a className="hover:text-my-orange" href="#">
+                        HOME
+                      </a>
                     </li>
                     <li className="mb-2 text-my-white">
-                      <a href="#">PRODUCTS</a>
+                      <a className="hover:text-my-orange" href="#">
+                        PRODUCTS
+                      </a>
                     </li>
                     <li className="text-my-white">
-                      <a href="#">PAYMENT</a>
+                      <a className="hover:text-my-orange" href="#">
+                        PAYMENT
+                      </a>
                     </li>
                   </ul>
                 </li>
@@ -42,40 +49,43 @@ export default function Footer() {
             <div className="pt-6 px-24">
               <ul>
                 <li>
-                  <a className="text-xl text-my-white" href="#">
-                    CONTACT US
-                  </a>
+                  <div className="text-xl text-my-white">CONTACT US</div>
                   <ul>
                     <br />
                     <li className="mb-2 text-my-white">
-                      <a href="#">
+                      <a className="hover:text-my-orange" href="#">
                         <img className="inline-block mr-2" src={Fb} />
                         <span>Chichigo</span>
                       </a>
                     </li>
                     <li className="mb-2 text-my-white">
-                      <a href="#">
+                      <a className="hover:text-my-orange" href="#">
                         <img className="inline-block mr-2" src={Ig} />
                         <span>chichigo.official</span>
                       </a>
                     </li>
                     <li className="mb-2 text-my-white">
-                      <a href="#">
+                      <a className="hover:text-my-orange" href="#">
                         <img className="inline-block mr-2" src={Line} />
                         <span>382kivah</span>
                       </a>
                     </li>
                     <li className="mb-2 text-my-white">
-                      <a href="#">
-                        <img className="inline-block mr-2" src={Shopee} />
+                      <a className="hover:text-my-orange" href="#">
+                        {/* <img className="inline-block mr-2" src={Shopee} /> */}
+                        <div className="w-[30px] inline-block">
+                          <ShopeeIcon />
+                        </div>
                         <span>chichigo.official</span>
                       </a>
                     </li>
                     <li className="text-my-white">
-                      <a href="#">
-                        <img className="inline-block mr-2" src={Phone} />
+                      <div className="flex items-center space-x-2">
+                        <div className="w-[30px] inline-block text-my-white">
+                          <PhoneIcon />
+                        </div>
                         <span>+66-892050502</span>
-                      </a>
+                      </div>
                     </li>
                   </ul>
                 </li>

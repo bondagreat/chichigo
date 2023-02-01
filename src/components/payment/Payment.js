@@ -12,7 +12,7 @@ export default function Payment() {
 
             <div className="flex space-x-2">
               <div>
-                <img className="w-24 h-24 rounded-xl" src={Image} />
+                <img className="w-24 h-24 rounded-xl" src={Image} alt="Kbank" />
               </div>
               <div className="flex flex-col justify-center">
                 <div className="pb-2">
@@ -33,7 +33,7 @@ export default function Payment() {
 
             <div className="flex space-x-2">
               <div>
-                <img className="w-24 h-24 rounded-xl" src={Image} />
+                <img className="w-24 h-24 rounded-xl" src={Image} alt="Bbank" />
               </div>
               <div className="flex flex-col justify-center">
                 <div className="pb-2">
@@ -54,7 +54,7 @@ export default function Payment() {
 
             <div className="flex space-x-2">
               <div>
-                <img className="w-24 h-24 rounded-xl" src={Image} />
+                <img className="w-24 h-24 rounded-xl" src={Image} alt="Abank" />
               </div>
               <div className="flex flex-col justify-center">
                 <div className="pb-2">

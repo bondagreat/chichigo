@@ -7,7 +7,7 @@ export default function History() {
         <p className="text-xl mb-2">Our History</p>
         <div className="flex justify-between">
           <div className="w-7/12 top-0">
-            <img className="rounded-xl" src={Image}></img>
+            <img className="rounded-xl" src={Image} alt="HistoryImage"></img>
           </div>
           <div className="w-4/12 px-4">
             <span>

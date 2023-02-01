@@ -9,13 +9,13 @@ export default function ProductInfo() {
         <div className="flex space-x-14 mb-10">
           <div className="flex flex-col w-650 min-w-580 space-y-4">
             <div>
-              <img className="rounded-2xl" src={Image} />
+              <img className="rounded-2xl" src={Image} alt="MainImg" />
             </div>
             <div className="flex justify-between">
-              <img className="h-36 rounded-xl" src={Image} />
-              <img className="h-36 rounded-xl" src={Image} />
-              <img className="h-36 rounded-xl" src={Image} />
-              <img className="h-36 rounded-xl" src={Image} />
+              <img className="h-36 rounded-xl" src={Image} alt="Img1" />
+              <img className="h-36 rounded-xl" src={Image} alt="Img2" />
+              <img className="h-36 rounded-xl" src={Image} alt="Img3" />
+              <img className="h-36 rounded-xl" src={Image} alt="Img4" />
             </div>
           </div>
 
@@ -32,11 +32,11 @@ export default function ProductInfo() {
               <div className="flex justify-between items-center py-4">
                 <div className="flex justify-between items-center w-44 h-12 bg-my-gray rounded-3xl">
                   <button>
-                    <img className="w-6 mx-2" src={Left} />
+                    <img className="w-6 mx-2" src={Left} alt="Left" />
                   </button>
                   <span className="text-2xl">1</span>
                   <button>
-                    <img className="w-6 mx-2" src={Right} />
+                    <img className="w-6 mx-2" src={Right} alt="Right" />
                   </button>
                 </div>
                 <span className="text-3xl">79.-</span>

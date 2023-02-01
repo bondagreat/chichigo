@@ -5,7 +5,7 @@ export default function ProductCard() {
     <>
       <div className="flex flex-col w-100">
           <a href="#">
-            <img className="w-100 h-100 mb-5 rounded-xl" src={Image} />
+            <img className="w-100 h-100 mb-5 rounded-xl" src={Image} alt="ProductImage" />
           </a>
           <div>
             <div className="flex justify-between">

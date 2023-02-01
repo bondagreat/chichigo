@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { toast } from "react-toastify";
+// import { toast } from "react-toastify";
 import Image from "../../images/foodhigh.png";
 import Input from "../Input";
 
@@ -25,7 +25,7 @@ export default function LoginForm() {
     <>
       <div className="container flex min-w-728 px-12 py-16 space-x-16">
         <div>
-          <img src={Image} />
+          <img src={Image} alt="LeftImage" />
         </div>
         <form
           className="flex flex-col space-y-28 pt-14 w-650"

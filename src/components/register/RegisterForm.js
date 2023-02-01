@@ -13,7 +13,7 @@ const initialInput = {
 
 export default function RegisterForm() {
   const [input, setInput] = useState(initialInput);
-  const [error, setError] = useState({});
+  // const [error, setError] = useState({});
 
   // const { startLoading, stopLoading } = useLoad
 
@@ -27,7 +27,7 @@ export default function RegisterForm() {
     <>
       <div className="container flex min-w-728 px-12 py-16 space-x-16">
         <div>
-          <img src={Image} />
+          <img src={Image} alt="LeftImage" />
         </div>
         <form className="flex flex-col space-y-8 pt-14 w-650">
           <div>

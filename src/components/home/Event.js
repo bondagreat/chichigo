@@ -10,12 +10,12 @@ export default function Event() {
           
           <div className="w-1/3 top-0">
             <div>
-              <img className="mb-2 rounded-xl" src={Image}></img>
+              <img className="mb-2 rounded-xl" src={Image} alt="Event1"></img>
             </div>
             <div className="flex justify-between">
               <span>DOGGY DAY#11</span>
               <div className="flex items-center space-x-1">
-                <img className="h-5" src={Location} />
+                <img className="h-5" src={Location} alt="Location" />
                 <span>K-VILLAGE</span>
               </div>
             </div>
@@ -23,12 +23,12 @@ export default function Event() {
           
           <div className="w-1/3 top-0">
             <div>
-              <img className="mb-2 rounded-xl" src={Image}></img>
+              <img className="mb-2 rounded-xl" src={Image} alt="Event2"></img>
             </div>
             <div className="flex justify-between">
               <span>DOGGY DAY#11</span>
               <div className="flex items-center space-x-1">
-                <img className="h-5" src={Location} />
+                <img className="h-5" src={Location} alt="Location" />
                 <span>K-VILLAGE</span>
               </div>
             </div>
@@ -36,12 +36,12 @@ export default function Event() {
           
           <div className="w-1/3 top-0">
             <div>
-              <img className="mb-2 rounded-xl" src={Image}></img>
+              <img className="mb-2 rounded-xl" src={Image} alt="Event3"></img>
             </div>
             <div className="flex justify-between">
               <span>DOGGY DAY#11</span>
               <div className="flex items-center space-x-1">
-                <img className="h-5" src={Location} />
+                <img className="h-5" src={Location} alt="Location" />
                 <span>K-VILLAGE</span>
               </div>
             </div>
